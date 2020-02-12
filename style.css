@@ -1,0 +1,220 @@
+/* Css code for Dashboard website by landonisonline */
+
+/* Grid help https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns */
+
+
+body {
+    background-color: seashell;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*sidebar css*/
+
+aside {
+    background-color: rgb(1, 138, 69);
+    border: 7px solid rgb(0, 99, 49);
+    border-radius: 1%;
+    width: 240px;
+    text-align: center;
+    position: fixed;
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+aside a {
+    display: block;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+main {
+    /* display: grid; */
+    text-align: center;
+    margin: 0 0 0 240px;
+}
+
+
+.side-header {
+    background-color: #006331;
+    font-size: 200%;
+    font-family: 'Anton', sans-serif;
+}
+
+.side-header:hover {
+    font-size: 210%;
+    background-color: #017239;
+    font-weight: bold;
+}
+
+.nav-links {
+    padding: 5% 0 5% 0;
+    /* height: 400px; */
+    height: auto;
+}
+
+
+.side-link {
+    background-color: #006331;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+}
+
+.side-link:hover {
+    background-color: #017239;
+    font-size: 170%;
+
+}
+
+
+.side-img img {
+    width: 50%;
+}
+
+.contact {
+    background-color: #006331;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+}
+
+.contact:hover {
+    background-color: #017239;
+    font-size: 80%;
+}
+
+
+
+
+
+/*main css */
+
+.greeting {
+    padding: 2% 5% 1% 5%;
+    background-color: #0091c2;
+}
+
+.icons img {
+    width: 5%;
+    /* float: right; */
+    padding: 0 .5% 0 .5%;
+}
+
+.icons img:hover {
+    background-color:#00779e;
+    width: 6%;
+}
+
+.greeting-big-font {
+    font-size: 300%;
+    width: auto;
+    font-family: 'Anton', sans-serif;
+}
+
+.greeting-big-font:hover {
+    font-size: 320%;
+    font-weight: bold;
+}
+
+
+
+.small-bold {
+    font-weight: bold;
+}
+
+.bold {
+    font-size: 150%;
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+}
+
+.text {
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.c {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.border-thick {
+    border: 5px solid black;
+}
+
+.lf {
+    text-align: left;
+}
+
+.rt {
+    text-align: right;
+}
+
+.welcome {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.welcome-box {
+    background-color: #008080;
+    padding: 5% 5% 5% 5%;
+}
+
+.level-box {
+    background-color: #008080;
+    padding: 5% 5% 5% 5%;
+}
+
+.project-status {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, auto);
+}
+
+.p-box {
+    background-color: #0091c2;
+    padding: 5% 5% 5% 5%;
+}
+
+.p-box:hover {
+    background-color: #00b6f3;
+    padding: 5% 5% 5% 5%;
+}
+
+.calender-project {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.calender {
+    background-color: #008080;
+    padding: 5% 5% 5% 5%;
+}
+
+.project {
+    background-color: #008080;
+    padding: 5% 5% 5% 5%;
+}
+
+@media (max-width: 950px) {
+    .main-aside {
+        display: none;
+    }
+
+    main {
+        margin: 0 0 0 0;
+    }
+}
